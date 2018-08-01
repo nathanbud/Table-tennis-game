@@ -9,5 +9,6 @@ This is my first javascript game. The code was based from the Code Your First Ga
 # Scoring
 
 # For improvements
- - Put levels 
+ - Put levels ( Difficulty level) 
+ - Graphics
  - 
