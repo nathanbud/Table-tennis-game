@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+    <style>
+       #gameCanvas, #instructions{transform: translate(-50%);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    } 
+    #instructions, #devnotes{
+        padding:50px;
+    }
+        </style>
 </head>
 <body>
     <canvas id="gameCanvas" width="800" height="600">
@@ -22,7 +32,7 @@
 
     var player1Score = 0;
     var player2Score = 0;
-    const WINNING_SCORE = 3;
+    const WINNING_SCORE = 11;
 
     var showingWinScreen = false;
 
@@ -175,5 +185,39 @@ function colorRect(leftX, topY, width, height, drawColor){
 }
 
     </script>
+    <div id="instructions">
+        <h3>The Game</h3>
+        - This is the simplest table tennis game. In this game you will play against the computer (red bar).
+        You, on the other hand will be the white bar.   
+        <h3>Game Mechanics:</h3>
+        <ul>
+            <ol>
+                <li>
+                        A player will earn 1 point on every opposing players miss.
+                </li>
+                <li>
+                        The first player who earns 11 points will be declared winner.
+                </li>
+            </ol>
+        </ul>
+      
+        <h3>Controls:</h3>
+        <ul>
+                <ol>
+                    <li>
+                            <strong>Mouse up </strong>to bring the racket up.
+                    </li>
+                    <li>
+                            <strong>Mouse down </strong>to bring the racket down.
+                    </li>
+                </ol>
+            </ul>
+    </div>
+
+    <div id="devnotes">
+        <h3>DEVELOPER NOTES:</h3>
+        <p>This game is far from over. A lot of features and controls are yet to be added.</p>
+    </div>
+    
 </body>
 </html>
