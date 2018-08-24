@@ -15,4 +15,5 @@ A. Use your Mouse to bring up or down the bar. You can position your racket as t
 # For improvements
  - Put levels ( Difficulty level) 
  - Graphics
- - 
+ - Mobile View
+ - Dual Player
